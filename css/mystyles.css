@@ -1,0 +1,56 @@
+.jerrycenter{
+    text-align: center;
+    color: rgb(128, 127, 127);
+    background-color: rgb(212, 235, 255) ;
+    
+}
+.jjjcenter{
+    text-align: center;
+    color: rgb(128, 127, 127);
+    background-color: rgb(212, 235, 255) ;
+    margin: -10px;
+    border-color: rgb(252, 205, 205);
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+.yyy{
+    text-align: center;
+    color: white;
+}
+a.jyhhhlink{
+    color: rgb(221, 221, 229);
+    padding: 0 10px;
+    border-radius: 40px;
+    background-color: rgb(134, 134, 145);    
+}
+
+a.jyhhhlink:hover{
+    background-color: rgb(152, 152, 219);
+    color: white;
+}
+.jerrybig{
+    font-size: 20px;
+    font-weight: 800;
+}
+.flex-shrink-0{
+    text-align:right;
+}
+.jerrygo{
+    font-size: 30px;
+    text-align:left;
+}
+section#about{
+    background-color: #d9d9d979;
+    background-image: url("../assets/img/bg.jpg");
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section#cta{
+    background-color:#d9d9d979 ;
+}
+section#work{
+    background-color:#d9d9d979 ;
+}
