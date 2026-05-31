@@ -117,7 +117,18 @@ a.musictwolink{
     font-size: 23px;
 }
 a.musictwo:hover{
-     background-color:rgb(129, 129, 129);
+    background-color:rgb(129, 129, 129);
+    color: rgb(228, 226, 226);
+    font-size: 23px;
+}
+a.musicthreelink{
+    background-color: rgb(120, 117, 117);
+    color: rgb(228, 226, 226);
+    border-radius: 10px;
+    font-size: 23px;
+}
+a.musicthree:hover{
+    background-color:rgb(129, 129, 129);
     color: rgb(228, 226, 226);
     font-size: 23px;
 }
