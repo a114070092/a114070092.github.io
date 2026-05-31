@@ -62,16 +62,21 @@ section#cta{
     background-size: cover;
     background-position: center;
 }
+section#music{
+    background-image: url("../assets/img/46.jpg");
+    background-size: cover;
+    background-position: center;
+}
 section#experience{
     background-image: url("../assets/img/46.jpg");
     background-size: cover;
     background-position: center;
 }
-section#hobbies{
-     background-image: url("../assets/img/46.jpg");
+section#photo{
+    background-image: url("../assets/img/46.jpg");
     background-size: cover;
     background-position: center;
-}
+}    
 #last{
     color:white;
 }
