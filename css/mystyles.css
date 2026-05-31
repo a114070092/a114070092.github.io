@@ -99,3 +99,14 @@ a.social-iconlink:hover{
 .muusic{
     background-position: center;
 }
+a.musiconelink{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+a.musicone:hover{
+    background-color:rgb(129, 129, 129);
+    color: white;
+}
+a.musictwolink{
+    color: rgb(44, 44, 44);
+}
