@@ -100,13 +100,24 @@ a.social-iconlink:hover{
     background-position: center;
 }
 a.musiconelink{
-    background-color: rgb(44, 44, 44);
-    color: white;
+    background-color: rgb(120, 117, 117);
+    color: rgb(228, 226, 226);
+    border-radius: 10px;
+    font-size: 23px;
 }
 a.musicone:hover{
     background-color:rgb(129, 129, 129);
-    color: white;
+    color: rgb(228, 226, 226);
+    font-size: 23px;
 }
 a.musictwolink{
-    color: rgb(44, 44, 44);
+   background-color: rgb(120, 117, 117);
+    color: rgb(228, 226, 226);
+    border-radius: 10px;
+    font-size: 23px;
+}
+a.musictwo:hover{
+     background-color:rgb(129, 129, 129);
+    color: rgb(228, 226, 226);
+    font-size: 23px;
 }
