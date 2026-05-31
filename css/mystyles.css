@@ -61,6 +61,8 @@ section#cta{
     background-image: url("../assets/img/124.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
 }
 section#music{
     background-image: url("../assets/img/46.jpg");
@@ -93,4 +95,7 @@ a.social-iconlink:hover{
 }
 #sideNav{
     background-color: rgb(101, 101, 113);
+}
+.muusic{
+    background-position: center;
 }
