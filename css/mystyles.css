@@ -21,7 +21,7 @@
     font-size: 40px;
 }
 a.jyhhhlink{
-    color: rgb(221, 221, 229);
+    color:  rgb(221, 221, 229);
     padding: 0 10px;
     border-radius: 40px;
     background-color: rgb(134, 134, 145);    
@@ -100,15 +100,14 @@ a.social-iconlink:hover{
     background-position: center;
 }
 a.musiconelink{
-    background-color: rgb(120, 117, 117);
-    color: rgb(228, 226, 226);
-    border-radius: 10px;
-    font-size: 23px;
+    color:  rgb(221, 221, 229);
+    padding: 0 10px;
+    border-radius: 40px;
+    background-color: rgb(134, 134, 145); 
 }
 a.musicone:hover{
-    background-color:rgb(129, 129, 129);
-    color: rgb(228, 226, 226);
-    font-size: 23px;
+     background-color: rgb(152, 152, 219);
+    color: white;
 }
 a.musictwolink{
    background-color: rgb(120, 117, 117);
