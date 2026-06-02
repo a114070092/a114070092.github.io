@@ -238,8 +238,81 @@
             <!--鏡頭之下-->
             <section class="resume-section" id="photo">
                 <div class="resume-section-content">
-                    <h2 class="mb-5 text-center">鏡頭之下</h2>
                 </div>
+                <!-- 整個「鏡頭之下」的大容器 -->
+<div class="container-fluid py-5">
+
+  <!-- 1. 標題區塊：移到最上面且正中間 -->
+  <div class="row mb-5">
+    <div class="col-12 text-center">
+    
+    </div>
+  </div>
+
+  <!-- 2. 照片區塊：獨立成一排，在正中間且放大（變寬） -->
+  <!-- mx-auto 讓整組照片置中，style="max-width: 1200px;" 限制最大寬度，避免在超大螢幕上拉得太散 -->
+ <div class="row row-cols-1 row-cols-md-4 g-4" style="display: flex; justify-content: text-center; width: 100%; margin: 4;">
+ <!-- 作品 1 -->
+    <div class="col">
+      <div class="card border-0 shadow-sm">
+        <!-- height: 280px 稍微加高，讓照片放大更有氣勢 -->
+        <img src="photo1.jpg" class="img-fluid rounded" alt="作品1" style="height: 300px; width: 100%; object-fit: cover;">
+      </div>
+    </div>
+
+    <!-- 作品 2 (利用 mt-lg-5 做出上下交錯感) -->
+    <div class="col mt-lg-5 ">
+      <div class="card border-0 shadow-sm">
+        <img src="photo2.jpg" class="img-fluid rounded" alt="作品2" style="height: 280px; width: 100%; object-fit: cover;">
+      </div>
+    </div>
+
+    <!-- 作品 3 -->
+    <div class="col">
+      <div class="card border-0 shadow-sm">
+        <img src="photo3.jpg" class="img-fluid rounded" alt="作品3" style="height: 280px; width: 100%; object-fit: cover;">
+      </div>
+    </div>
+
+    <!-- 作品 4 (上下交錯) -->
+    <div class="col mt-lg-5">
+      <div class="card border-0 shadow-sm">
+        <img src="photo4.jpg" class="img-fluid rounded" alt="作品4" style="height: 280px; width: 100%; object-fit: cover;">
+      </div>
+    </div>
+
+    <!-- ================= 第二排 (作品 5 ~ 8) ================= -->
+    <!-- 作品 5 (第二排開頭往下推，維持完美交錯) -->
+    <div class="col mt-lg-5">
+      <div class="card border-0 shadow-sm">
+        <img src="photo5.jpg" class="img-fluid rounded" alt="作品5" style="height: 280px; width: 100%; object-fit: cover;">
+      </div>
+    </div>
+
+    <!-- 作品 6 -->
+    <div class="col">
+      <div class="card border-0 shadow-sm">
+        <img src="photo6.jpg" class="img-fluid rounded" alt="作品6" style="height: 280px; width: 100%; object-fit: cover;">
+      </div>
+    </div>
+
+    <!-- 作品 7 (上下交錯) -->
+    <div class="col mt-lg-5">
+      <div class="card border-0 shadow-sm">
+        <img src="photo7.jpg" class="img-fluid rounded" alt="作品7" style="height: 280px; width: 100%; object-fit: cover;">
+      </div>
+    </div>
+
+    <!-- 作品 8 -->
+    <div class="col">
+      <div class="card border-0 shadow-sm">
+        <img src="photo8.jpg" class="img-fluid rounded" alt="作品8" style="height: 280px; width: 100%; object-fit: cover;">
+      </div>
+    </div>
+
+  </div>
+</div>
+
             </section>
 
             <hr class="m-0" />
