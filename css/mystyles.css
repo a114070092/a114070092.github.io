@@ -9,6 +9,8 @@
     border-color: rgb(252, 205, 205);
     padding: 40px;
     border-radius: 20px;
+    font-family: serif;
+    line-height: 1.8;
 }
 .jyyhou{
     padding: 30px;
@@ -29,6 +31,10 @@
     text-align: center;
     color: white;
     font-size: 40px;
+}
+.chhhhen{
+    font-family: serif;
+    color: rgb(77, 77, 77);
 }
 a.jyhhhlink{
     color:  rgb(221, 221, 229);
