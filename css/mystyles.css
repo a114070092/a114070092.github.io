@@ -9,7 +9,14 @@
     border-color: rgb(252, 205, 205);
     padding: 40px;
     border-radius: 20px;
-    
+}
+.jyyhou{
+    padding: 30px;
+    font-size: 35px;
+}
+.jyyyhou{
+    padding: 30px;
+    font-size: 33px;
 }
 .yyy{
     text-align: center;
