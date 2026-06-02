@@ -145,3 +145,7 @@ a.musicthreelink:hover{
     color: rgb(221, 221, 229);
     font-size: 23px;
 }
+.chenn{
+    justify-content: center;
+    align-items: center;
+}
