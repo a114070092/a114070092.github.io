@@ -155,3 +155,17 @@ a.musicthreelink:hover{
     justify-content: center;
     align-items: center;
 }
+
+/* 控制照片牆大容器的寬度與置中 */
+.photo-gallery {
+    max-width: 1100px;  /* 限制最大寬度，避免在大螢幕拉得太開 */
+    margin-left: auto;   /* 左右外級距自動，達成水平置中 */
+    margin-right: auto;
+    padding-left: 15px;  /* 加上內襯，防範貼齊邊緣 */
+    padding-right: 15px;
+}
+
+/* 確保所有卡片背景透明，且沒有多餘的邊框影響排版 */
+.photo-gallery .card {
+    background-color: transparent;
+}
