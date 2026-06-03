@@ -169,3 +169,18 @@ a.musicthreelink:hover{
 .photo-gallery .card {
     background-color: transparent;
 }
+/* 1. 自動讓卡片在放大時裁切邊緣，不滿出來 */
+.card {
+  overflow: hidden !important;
+}
+
+/* 2. 自動幫卡片裡面的所有照片加上平滑動畫 */
+.card img {
+  transition: transform 0.4s ease-in-out !important;
+}
+
+/* 3. 當滑鼠移到卡片上時，裡面的照片自動放大 1.1 倍 */
+.card:hover img {
+  transform: scale(1.1) !important;
+}
+
